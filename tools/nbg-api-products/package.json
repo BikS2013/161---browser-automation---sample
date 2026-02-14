@@ -1,0 +1,26 @@
+{
+  "name": "nbg-api-products-scraper",
+  "version": "1.0.0",
+  "description": "CLI tool to scrape API Products from the NBG Developer Portal using browser automation",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "nbg",
+    "api",
+    "scraper",
+    "browser-automation",
+    "developer-portal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
